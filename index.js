@@ -6,7 +6,7 @@ module.exports = {
     var result={
         verified:false,
         name: ""
-        picture_url:""
+        pictureUrl:""
     }
     try {
         var resp = await axios.get("https://wa.me/" + jid)
@@ -19,7 +19,7 @@ module.exports = {
             result={
                 verified: true,
                 name: texts[0]
-                picture_url:urls[0]
+                pictureUrl:urls[0]
             }
         }        
     } catch (error) {
