@@ -5,7 +5,7 @@ module.exports = {
   async check(jid) {
     var result={
         verified:false,
-        name: ""
+        name: "",
         pictureUrl:""
     }
     try {
@@ -18,7 +18,7 @@ module.exports = {
             const texts = headings.map((index, element) => $(element).text()).get();
             result={
                 verified: true,
-                name: texts[0]
+                name: texts[0],
                 pictureUrl:urls[0]
             }
         }        

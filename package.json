@@ -1,6 +1,6 @@
 {
   "name": "wa-verified-checker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Node.js module to check if number is a whatsapp verified business",
   "main": "index.js",
   "keywords": [
